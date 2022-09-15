@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:wght@300;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color: black;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Bree Serif', serif;
+}
+.menu img {
+  width: 70px;
+  text-align: center;
+}
+.menu a i {
+  margin-right: 5px;
+}
+
+/* Titulo */
+.titulo {
+  text-align: center;
+}
+.titulo h1 {
+  margin-top: 35px;
+  font-size: 28px;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+}
+.formulario {
+  text-align: center;
+  background-color: #333 transparent;
+  left: 0;
+  right: 0;
+  margin: auto;
+  box-shadow: 0 0 10px white;
+  margin-top: 30px;
+}
+
+.formulario label {
+  margin: 5px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+.formulario input {
+  width: 70%;
+  height: 48px;
+  margin: 8px;
+  outline: none;
+  border: none;
+  background-color: #f0f2f5;
+  border-bottom: 1px solid #333;
+  padding: 0 7px;
+  font-size: 15px;
+ font-family: 'Lato', sans-serif;
+ font-weight: bold;
+}
+
+.formulario input::placeholder {
+  font-weight: normal;
+}
+.formulario .check {
+  display: flex;
+  align-items: center;
+  margin-left: 18px;
+}
+
+.formulario .select span {
+  margin-right: 146px;
+}
+.formulario span {
+  margin-right: 114px;
+  font-family: 'Lato', sans-serif;
+}
+.formulario select {
+  width: 70%;
+  height: 45px;
+  margin: 5px;
+  outline: none;
+  border: none;
+  background-color: #f0f2f5 ;
+  border-bottom: 1px solid #333;
+  padding: 0 7px;
+}
+
+.formulario .check input[type="checkbox"] {
+  width: 20px;
+  margin-left: 48px;
+}
+
+.formulario .link {
+  margin-top: 10px;
+}
+
+.formulario .link a {
+  text-decoration: none;
+  color: #1877f2;
+  margin: 8px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.formulario input[type="submit"] {
+  background-color: #1877f2;
+  border: none;
+  margin: 8px;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
